@@ -56,19 +56,29 @@ def gui():
 
     def download(link, format_opt):
         timestamp = int(time.time())
+        output_filename = None
         ydl_opts = {'outtmpl': f'%(title)s{timestamp}.%(ext)s','progress_hooks': [progress_callback], 'format':format_opt}
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                ydl.download([link])
-            return True
+                info = ydl.extract_info(link,download=True)
+                output_filename = ydl.prepare_filename(info)
+            return output_filename
         except Exception as e:
             status_text.write(f"Error: {e}")
         return False
         
     if st.button("Download"):
         format_opt = get_formate(formate_choice)
-        if download(video_link, format_opt):
-            st.info("Video is downloaded")
+        file_path = download(video_link,format_opt)
+        if file_path:
+            st.info("Video is downloaded successfully!")
+            with open(file_path, 'rb') as f:
+                st.download_button(
+                    label="Download Video",
+                    data=f,
+                    file_name=file_path.split('/')[-1],
+                    mime="video/mp4" if format_opt == 'bestvideo' else "audio/mp3"
+                )
         else:
             st.error("Failed to download video. Please check the link and try again.")
 if __name__ == "__main__":
