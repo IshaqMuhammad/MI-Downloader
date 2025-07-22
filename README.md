@@ -64,6 +64,9 @@ Use responsibly.
 📧 Contact  
   
 **Developer:** *Muhammad Ishaq*1  
+
 **📫 Email:** mi21.muhammadishaq@gmail.com  
+
 **🌐 LinkedIn:** linkedin.com/in/ishaq-shamraiz
+
 **💻 GitHub:** github.com/ishaq183 
