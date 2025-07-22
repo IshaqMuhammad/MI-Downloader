@@ -9,8 +9,6 @@
 - 🎞 **Download Options**: Choose to download _video only_, _audio only_, or _both_.  
 - 📊 **Progress Tracking**: Live status updates including percentage, speed, and file size.  
 - 🌐 **Interactive GUI**: Clean interface using Streamlit, ideal for beginners and advanced users.  
-- 🎨 **Custom Styling**: Background image and branding icon included.  
-- 📁 **Auto-named Files**: Unique filenames with timestamps for easy file management.  
   
 ---  
   
@@ -26,18 +24,18 @@
   
 ## 📦 Installation  
   
-### 1. Clone the Repository  
+**1. Clone the Repository**
 
 git clone https://github.com/ishaq183/MI-Downloader.git  
 cd mi-downloader  
   
-2. Install Required Packages  
+**2. Install Required Packages**
   
 Use pip to install the necessary libraries:  
   
 pip install -r requirements.txt  
   
-3. Run the Application  
+**3. Run the Application**
   
 streamlit run app.py  
   
