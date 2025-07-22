@@ -28,7 +28,7 @@
   
 ### 1. Clone the Repository  
 
-git clone https://github.com/yourusername/mi-downloader.git  
+git clone https://github.com/ishaq183/MI-Downloader.git  
 cd mi-downloader  
   
 2. Install Required Packages  
