@@ -63,7 +63,7 @@ Use responsibly.
   
 📧 Contact  
   
-Developer: Muhammad Ishaq  
-📫 Email: mi21.muhammadishaq@gmail.com  
-🌐 LinkedIn: linkedin.com/in/ishaq-shamraiz
-💻 GitHub: github.com/ishaq183 
+**Developer:** *Muhammad Ishaq*1  
+**📫 Email:** mi21.muhammadishaq@gmail.com  
+**🌐 LinkedIn:** linkedin.com/in/ishaq-shamraiz
+**💻 GitHub:** github.com/ishaq183 
