@@ -69,4 +69,4 @@ Use responsibly.
 
 **🌐 LinkedIn:** https://linkedin.com/in/ishaq-shamraiz
 
-**💻 GitHub:** https://www.github.com/ishaq183 
+**💻 GitHub:** https://github.com/ishaq183 
