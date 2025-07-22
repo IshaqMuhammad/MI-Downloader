@@ -67,6 +67,6 @@ Use responsibly.
 
 **📫 Email:** mi21.muhammadishaq@gmail.com  
 
-**🌐 LinkedIn:** linkedin.com/in/ishaq-shamraiz
+**🌐 LinkedIn:** https://linkedin.com/in/ishaq-shamraiz
 
-**💻 GitHub:** github.com/ishaq183 
+**💻 GitHub:** https://www.github.com/ishaq183 
